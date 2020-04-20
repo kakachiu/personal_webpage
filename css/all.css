@@ -65,7 +65,7 @@ body {
 .aboutContent .experience li:last-child {
   margin-bottom: 0px;
 }
-.aboutContent .experience li .circle {
+.circle {
   width: 22px;
   height: 22px;
   border-radius: 50%;
@@ -143,19 +143,20 @@ body {
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
   background-color: #000;
-  padding: 64px;
 }
-.footer .footerContent h2 {
+
+.footerContent {
+  margin: 0 auto;
+  text-align: center;
+  padding: 64px;
+  color: #fff;
+}
+.footerContent h2 {
   font-size: 64px;
   margin-bottom: 16px;
 }
-.footer .footerContent p {
+.footerContent p {
   font-size: 24px;
   line-height: 2;
 }
